@@ -5,11 +5,12 @@ import CakeContainer from './containers/CakeContainer';
 
 function App() {
   return (
- <>
- <h1>Bakery</h1>
+ <div>
+   <h1>Bakery 🍰 </h1>
  <CakeContainer/>
+ </div>
+
  
- </>
   );
 }
 
