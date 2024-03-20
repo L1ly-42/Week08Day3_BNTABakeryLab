@@ -59,12 +59,12 @@ let totalRevenue = victoriaSpongeRevenue + teaLoafRevenue + carrotCakeRevenue;
         <h2>Our Cakes:</h2>
         <div>
         <div className="cakeList">
-      <Cake cakeName={victoriaSponge.cakeName} ingredients={victoriaSponge.ingredients} price={victoriaSponge.price} rating={victoriaSponge.rating} count={victoriaSpongeRevenue} onButtonClick={setVictoriaSpongeRevenue}/>
-      <Cake cakeName={teaLoaf.cakeName} ingredients={teaLoaf.ingredients} price={teaLoaf.price} rating={teaLoaf.rating} count={teaLoafRevenue} onButtonClick={setTeaLoafRevenue}/>
-      <Cake cakeName={carrotCake.cakeName} ingredients={carrotCake.ingredients} price={carrotCake.price} rating={carrotCake.rating} count={carrotCakeRevenue} onButtonClick={setCarrotCakeRevenue}/>
+                <Cake id="victoria" cakeName={victoriaSponge.cakeName} ingredients={victoriaSponge.ingredients} price={victoriaSponge.price} rating={victoriaSponge.rating} count={victoriaSpongeRevenue} onButtonClick={setVictoriaSpongeRevenue}/>
+                <Cake cakeName={teaLoaf.cakeName} ingredients={teaLoaf.ingredients} price={teaLoaf.price} rating={teaLoaf.rating} count={teaLoafRevenue} onButtonClick={setTeaLoafRevenue}/>
+                <Cake cakeName={carrotCake.cakeName} ingredients={carrotCake.ingredients} price={carrotCake.price} rating={carrotCake.rating} count={carrotCakeRevenue} onButtonClick={setCarrotCakeRevenue}/>
       </div>
-      <h3 id="rating">Average Cake Rating: {averageRating}</h3>
-      <h2 id="revenue"> Total Cake Revenue:{totalRevenue}</h2>
+            <h3 id="rating">Average Cake Rating: {averageRating}</h3>
+            <h2 id="revenue"> Total Cake Revenue:{totalRevenue}</h2>
       </div>
         </>
      );

@@ -6,12 +6,24 @@ h2{
 
 #rating{
     padding-left: 50px;
+    padding-bottom: 0px;
     color: rgb(240, 184, 193);
     text-align: center;
 }
 
 #revenue{
-    color: rgb(240, 184, 193);;
+    color: rgb(240, 184, 193);
     text-align: center;
-    width: auto;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.cakeList{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 40px;
+    margin: auto;
+    color: rgba(165, 42, 42, 0.531);
 }
