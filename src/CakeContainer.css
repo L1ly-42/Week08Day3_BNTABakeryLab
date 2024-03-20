@@ -1,0 +1,17 @@
+h2{
+    color: rgb(240, 184, 193);
+    padding-left: 50px;
+    width: 60%;
+}
+
+#rating{
+    padding-left: 50px;
+    color: rgb(240, 184, 193);
+    text-align: center;
+}
+
+#revenue{
+    color: rgb(240, 184, 193);;
+    text-align: center;
+    width: auto;
+}
