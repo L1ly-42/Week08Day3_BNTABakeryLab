@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Cake from "../components/Cake";
 
 const  CakeContainer= () => {
@@ -44,12 +45,15 @@ const carrotCake = {
    		rating: 5
 }
 
+const averageRating = (victoriaSponge.rating + teaLoaf.rating + carrotCake.rating)/3;
 
     return ( 
         <>
       <Cake cakeName={victoriaSponge.cakeName} ingredients={victoriaSponge.ingredients} price={victoriaSponge.price} rating={victoriaSponge.rating}/>
       <Cake cakeName={teaLoaf.cakeName} ingredients={teaLoaf.ingredients} price={teaLoaf.price} rating={teaLoaf.rating}/>
       <Cake cakeName={carrotCake.cakeName} ingredients={carrotCake.ingredients} price={carrotCake.price} rating={carrotCake.rating}/>
+      <h3>Average Cake Rating: {averageRating}</h3>
+      <h2>Total Cake Revenue:</h2>
         </>
      );
 }

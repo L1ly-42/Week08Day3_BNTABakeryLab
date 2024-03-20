@@ -6,6 +6,7 @@ const Cake = ({cakeName, ingredients, price, rating}) => {
     <p>Ingredients: {ingredients.join(', ')}</p>
     <p> Price: {price}</p>
     <p> Rating: {rating}</p>
+    <button>Sell Cake</button>
     </> 
     );
 }
