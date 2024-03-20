@@ -9,4 +9,4 @@ const Cake = ({cakeName, ingredients, price, rating}) => {
     </> 
     );
 }
- export default Cake;
+export default Cake;
