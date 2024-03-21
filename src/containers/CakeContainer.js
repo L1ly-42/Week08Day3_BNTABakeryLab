@@ -64,7 +64,7 @@ let totalRevenue = victoriaSpongeRevenue + teaLoafRevenue + carrotCakeRevenue;
                 <Cake cakeName={carrotCake.cakeName} ingredients={carrotCake.ingredients} price={carrotCake.price} rating={carrotCake.rating} count={carrotCakeRevenue} onButtonClick={setCarrotCakeRevenue}/>
       </div>
             <h3 id="rating">Average Cake Rating: {averageRating}</h3>
-            <h2 id="revenue"> Total Cake Revenue:{totalRevenue}</h2>
+            <h2 id="revenue"> Total Cake Revenue: £{totalRevenue}</h2>
       </div>
         </>
      );
