@@ -4,9 +4,9 @@ div{
 
 button{
     background-color: rgba(238, 218, 130, 0.848);
-    color: white;
+    color: rgba(167, 138, 11, 0.773);
     font-weight: 1000;
-    border: 2px solid rgba(238, 218, 130, 0.895);
+    border: 2px solid rgba(167, 138, 11, 0.773);
     border-radius: 8px;
 
 }
