@@ -1,0 +1,12 @@
+div{
+    background-color: aliceblue;
+}
+
+button{
+    background-color: rgba(238, 218, 130, 0.848);
+    color: white;
+    font-weight: 1000;
+    border: 2px solid rgba(238, 218, 130, 0.895);
+    border-radius: 8px;
+
+}
