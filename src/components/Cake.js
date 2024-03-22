@@ -6,7 +6,7 @@ const Cake = ({cakeName, ingredients, price, rating, count, onButtonClick}) => {
     }
 
     return ( 
-    <div>
+    <div id='cake'>
     <h3>{cakeName}</h3>
     <p>Ingredients: {ingredients.join(', ')}</p>
     <p> Price: £{price}</p>

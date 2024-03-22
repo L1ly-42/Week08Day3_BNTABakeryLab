@@ -5,7 +5,7 @@ import CakeContainer from './containers/CakeContainer';
 
 function App() {
   return (
- <div>
+ <div className="page">
    <h1>Bakery 🍰 </h1>
  <CakeContainer/>
  </div>

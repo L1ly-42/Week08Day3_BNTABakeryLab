@@ -21,8 +21,7 @@ h2{
 .cakeList{
     display:grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 80px;
     padding-left: 40px;
     margin: auto;
     color: rgba(165, 42, 42, 0.531);
