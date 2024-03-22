@@ -45,8 +45,6 @@ const carrotCake = {
    		rating: 5
 }
 
-const averageRating = (victoriaSponge.rating + teaLoaf.rating + carrotCake.rating)/3;
-
 // revenue states
 const [victoriaSpongeRevenue, setVictoriaSpongeRevenue] = useState(0);
 const [teaLoafRevenue, setTeaLoafRevenue] = useState(0);
@@ -63,7 +61,6 @@ let totalRevenue = victoriaSpongeRevenue + teaLoafRevenue + carrotCakeRevenue;
                 <Cake cakeName={teaLoaf.cakeName} ingredients={teaLoaf.ingredients} price={teaLoaf.price} rating={teaLoaf.rating} count={teaLoafRevenue} onButtonClick={setTeaLoafRevenue}/>
                 <Cake cakeName={carrotCake.cakeName} ingredients={carrotCake.ingredients} price={carrotCake.price} rating={carrotCake.rating} count={carrotCakeRevenue} onButtonClick={setCarrotCakeRevenue}/>
       </div>
-            <h3 id="rating">Average Cake Rating: {averageRating}</h3>
             <h2 id="revenue"> Total Cake Revenue: £{totalRevenue}</h2>
       </div>
         </>
